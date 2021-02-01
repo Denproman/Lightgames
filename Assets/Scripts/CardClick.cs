@@ -129,8 +129,6 @@ public class CardClick : MonoBehaviour
         {
             pairsDone = 0;
             pairsNumber.text = pairsDone.ToString();
-
-          
         }
         if (pairsDone == 0)
         {
@@ -145,10 +143,6 @@ public class CardClick : MonoBehaviour
                 imgTocard.ImageElemLeft();
                 imgTocard.ImageElemRight();
             }
-
-           
-            //imgTocard.SetImgToLeftCard();
-            //imgTocard.SetImgToRightCard();
 
             Invoke("HideAnim", 5f);
             

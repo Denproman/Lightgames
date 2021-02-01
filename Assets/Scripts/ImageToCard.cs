@@ -22,14 +22,8 @@ public class ImageToCard : MonoBehaviour
 
     void Start()
     {
-        /*TextElemLeft();
-        TextElemRight();
-        SetImageToLeftCard();
-        SetImageToRightCard();*/
-
         ImageElemLeft();
         ImageElemRight();
-
     }
 
     void Update()
@@ -71,5 +65,4 @@ public class ImageToCard : MonoBehaviour
             cardImageRight[i].texture = imgParse.image[num];
         }
     }
-
 }
